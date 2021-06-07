@@ -1,0 +1,29 @@
+@import './elements/initial-screen', './elements/answer-creen';
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+*, a {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+
+    h1 {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
