@@ -28,3 +28,18 @@ body {
     }
 }
 
+.footer {
+    display: block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: .8rem;
+    padding: .5rem;
+    font-weight: 300;
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+}
