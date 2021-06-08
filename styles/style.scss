@@ -1,4 +1,4 @@
-@import './elements/initial-screen', './elements/answer-creen';
+@import './elements/initial-screen', './elements/answer-creen', './elements/variables';
 
 html {
     box-sizing: border-box;
@@ -6,8 +6,9 @@ html {
 
 body {
     box-sizing: border-box;
-    background-color: black;
-    color: white;
+    background-color: $black;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: $white;
 }
 
 *, a {
